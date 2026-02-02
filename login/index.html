@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .form-container{
+            border: 3px solid black;
+            width: 30%;
+            margin: auto;
+            padding: 27px;
+        }
+        h1{
+            text-align: center;
+        }
+        .form-field{
+            border-bottom: 1px solid rgb(0,0,0,0.5);
+            margin-bottom: 10px;
+        }
+        .input-field{
+            margin-top: 10px;
+            font-size: 0.6rem;
+        }
+        .input-field input{
+            border: none;
+            outline: none;
+        }   
+        .forgot{
+            text-align: right;
+            font-size: 0.7rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .login button{
+           /* text-align: center; */   
+            width: 100%;
+            border-radius: 999px;
+            padding: 5px;
+            margin-top: 20px;
+            color: white;
+            background-color: #A28DEE;
+            margin-bottom: 20px;
+        }
+        .signup{
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .signup p{
+            color: grey;
+        }
+        .signup .icons .fa-facebook-f{
+            background-color: #415A9A;
+            color: white;
+            border-radius: 50px;
+            padding: 8px;
+        }
+        .signup .icons .fa-twitter{
+            background-color: #18A3EC;
+            color: white;
+            padding: 8px;
+            border-radius: 50px;
+        }
+        .signup .icons .fa-google{
+            background-color: #E74633;
+            color: white;
+            padding: 8px;
+            border-radius: 50px;
+        }
+        .last-signup{
+            text-align: center;
+        }
+        .last-signup p{
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <form action=""  class="form-container">
+        <h1>Login</h1>
+
+        <div class="form-field">
+            <label for="">Username</label>
+            <div class="input-field">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Type your username">
+            </div>
+        </div>  
+
+        <div class="form-field">
+            <label for="">Password</label>
+            <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" placeholder="Type your password">
+            </div>
+        </div>
+
+        <div class="forgot">
+            <a href="">Forgot Password?</a>
+        </div>
+
+        <div class="login">
+            <button>Login</button>
+        </div>
+
+        <div class="signup">
+            <p>Or Sign Up using</p>
+            <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+            </div>
+        </div>
+
+        <div class="last-signup">
+            <p>Or Sign Up using</p>
+            <a href="">SIGN UP</a>
+        </div>
+    </form>
+</body>
+</html>
